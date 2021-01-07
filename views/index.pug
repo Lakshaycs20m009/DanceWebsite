@@ -1,0 +1,46 @@
+doctype html
+html
+    head
+        style
+            include ../static/style.css
+    body
+        nav#navbar.top
+            ul
+                div#logo
+                     img(src="/static/logo.png", alt=""  hieght:50px)
+                    
+
+                li #[a(href="/") Home] 
+                li #[a(href="/") About us]
+                li #[a(href="/") Services]
+                li #[a(href="/") batch info]
+                li #[a(href="/") contact us]
+
+        section#intro
+            div Welcome to siDance Academy
+            div.small Eat Sleep Dance Repeat
+
+        section#mission
+        
+            div.card#salsa
+                h3 Salsa
+            div.card#jazz
+                h3 Jazz
+            div.card#hiphop
+                h3 Hip-hop
+            div.card#bollywood
+                h3 Bollywood
+        section#sponsor
+            h2 Our Sponsors
+
+            div#sponsorsimg
+                img(src="/static/logo1.png", alt="")
+            
+                img(src="/static/logo2.png", alt="")
+        
+        footer#footer
+            
+            | Copyright 2021 
+
+        script
+          include ../static/index.js

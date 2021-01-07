@@ -1,0 +1,31 @@
+extends base.pug
+
+
+block style
+    style
+            include ../static/style.css
+
+block content
+   
+
+     section#intro
+            div Welcome to siDance Academy
+            div.small Eat Sleep Dance Repeat
+
+     section#mission
+        
+            div.card#salsa
+                h3 Salsa
+            div.card#jazz
+                h3 Jazz
+            div.card#hiphop
+                h3 Hip-hop
+            div.card#bollywood
+                h3 Bollywood
+     section#sponsor
+            h2 Our Sponsors
+
+            div#sponsorsimg
+                img(src="/static/logo1.png", alt="")
+            
+                img(src="/static/logo2.png", alt="")

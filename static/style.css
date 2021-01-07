@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Yellowtail&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#logo
+{
+    display: flex;
+    color: black;
+   
+
+}
+#logo img{
+    height: 50px;
+}
+
+
+#navbar{
+    background-color: rgb(99, 107, 128);
+    padding: 15px 20px;
+    /* margin: 12px; */
+    font-family: 'Hanalei Fill', cursive;
+}
+#sponsorsimg{
+    display: flex;
+    justify-content: center;
+    
+}
+#sponsorsimg img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#navbar ul{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+#navbar li {
+    list-style: none;
+
+}
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+    margin: 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#navbar li a:hover{
+    background-color: gray;
+    text-decoration: underline;
+
+}
+
+  
+#intro{
+    font-family: 'Yellowtail', cursive;
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+font-size: 3rem;
+    height: 350px;
+    padding:40px;
+    content: "";
+    background:url('/static/back.jpg') no-repeat center center/cover;
+    /* position: absolute; */
+    
+    width: 100%;
+    opacity: 0.8;
+
+}
+#sponsor{
+    background-color: rgb(157, 163, 181);
+height: 350px;
+
+}
+#mission{
+    background-color: rgb(227, 228, 233);
+height: 350px;
+padding-top: 47px;
+
+
+}
+#sponsor h2{
+    padding: 5px 11px;
+    margin: 0px;
+    color: rgb(62, 45, 24);
+    text-align: center;
+
+}
+#mission h2{
+    padding: 5px 11px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: rgb(62, 45, 24);
+
+}
+#footer{
+background-color: black;
+height: 50px;
+color: white;
+display: flex;
+justify-content: center;
+}
+
+#intro div.small{
+    font-size: 1rem;
+}
+.card{
+    /* border: 2px solid black; */
+  
+    border-radius: 12px;
+    
+width: 23%;
+padding: 5px 10px;
+margin: 5px;
+margin-right: 12px;
+height: 250px;
+display: inline-block;
+
+}
+#salsa{
+    background: url('/static/salsa.jpg')no-repeat center center/cover;
+    
+}
+#jazz{
+    background: url('/static/jazz.jpg')no-repeat center center/cover;
+    /* width: 200px; */
+    
+}
+#hiphop{
+    background: url('/static/hiphop.jpg')no-repeat center center/cover;
+}
+#bollywood{
+    background: url('/static/bollywood.jpg')no-repeat center center/cover;
+}
+h3{
+    color: white;
+    padding: 12px;
+}
